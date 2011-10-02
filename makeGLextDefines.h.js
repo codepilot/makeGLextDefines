@@ -1,3 +1,6 @@
+//run with cscript or wscript or double click
+//Downloads glext.h and wglext.h, creates GLextDefines.h and GLextDefines.cpp
+
 var fso = new ActiveXObject('Scripting.FileSystemObject');
 
 function dl(src, dst){
